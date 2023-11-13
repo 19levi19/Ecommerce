@@ -1,5 +1,12 @@
 {
-    "rewrites": [
-        {"source" : "/.(.*)","Destiantion":"/"}
+    "routes": [
+        {
+          "path" : "/",
+          "dest" : "/"
+        },
+        {
+            "src" : "/test",
+            "dest" : "/"
+          }
     ]
 }
